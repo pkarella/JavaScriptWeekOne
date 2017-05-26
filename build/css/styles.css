@@ -1,0 +1,15 @@
+body {
+  background: #93c9d8;
+  border: 3px solid black;
+  padding: 40px 80px; }
+  body #button {
+    font-weight: bold;
+    text-align: center;
+    background: red;
+    color: white; }
+
+h3 {
+  text-decoration: underline;
+  font-family: serif; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiJGJjb2xvciA6ICM5M2M5ZDg7XG5cbmJvZHkge1xuICBiYWNrZ3JvdW5kOiAkYmNvbG9yO1xuICBib3JkZXI6IDNweCBzb2xpZCBibGFjaztcbiAgcGFkZGluZzogNDBweCA4MHB4O1xuICAjYnV0dG9uIHtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZDogcmVkO1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgfVxufVxuaDN7XG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xuICBmb250LWZhbWlseTogc2VyaWY7XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUEsQUFBQSxJQUFJLENBQUM7RUFDSCxVQUFVLEVBSEYsT0FBTztFQUlmLE1BQU0sRUFBRSxlQUFlO0VBQ3ZCLE9BQU8sRUFBRSxTQUFTLEdBT25CO0VBVkQsQUFJRSxJQUpFLENBSUYsT0FBTyxDQUFDO0lBQ04sV0FBVyxFQUFFLElBQUk7SUFDakIsVUFBVSxFQUFFLE1BQU07SUFDbEIsVUFBVSxFQUFFLEdBQUc7SUFDZixLQUFLLEVBQUUsS0FBSyxHQUNiOztBQUVILEFBQUEsRUFBRSxDQUFBO0VBQ0EsZUFBZSxFQUFFLFNBQVM7RUFDMUIsV0FBVyxFQUFFLEtBQUssR0FDbkIifQ== */

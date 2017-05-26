@@ -1,7 +1,6 @@
 {
-  "name": "",
+  "name": "doctor",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bower-files": "^3.14.1",
@@ -14,6 +13,9 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "jshint": "^2.9.4",
@@ -23,5 +25,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkarella/template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pkarella/template/issues"
+  },
+  "homepage": "https://github.com/pkarella/template#readme",
+  "description": ""
 }

@@ -1,0 +1,17 @@
+$bcolor : #93c9d8;
+
+body {
+  background: $bcolor;
+  border: 3px solid black;
+  padding: 40px 80px;
+  #button {
+    font-weight: bold;
+    text-align: center;
+    background: red;
+    color: white;
+  }
+}
+h3{
+  text-decoration: underline;
+  font-family: serif;
+}

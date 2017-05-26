@@ -1,13 +1,28 @@
-<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title></title>
+    <title>Doctor Finder</title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h1>Find a doctor</h1>
+              <label for="illness">Enter an illness:</label>
+              <input id="illness" type="text">
+              <button class="btn-success" id="doctor">Find Doctors!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Here are a list of Doctors for your illness:</h3>
+      <ul id="result"></ul>
+<img src="" alt="" />
+    </div>
   </body>
 </html>
