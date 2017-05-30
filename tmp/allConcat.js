@@ -5,6 +5,7 @@ $(document).ready(function() {
   $('#doctor').click(function() {
     var illness = $('#illness').val();
     $('#illness').val("");
+    $('#result').empty();
     newDoctors.doctors(illness);
   });
 });
