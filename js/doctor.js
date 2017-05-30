@@ -8,7 +8,6 @@ Doctor.prototype.doctors = function(illness) {
    .then(function(response) {
      console.log(response)
      console.log(typeof response.data)
-    //  (i =0;i<10){}
      response.data.forEach(function(physician){
        $('#result').append("<li><h3> Name:</h3> " + physician.profile.last_name + ", " + physician.profile.first_name + " " + physician.profile.title+"</li>");
        $('#result').append( "<li><h3>Biography:</h3> " + physician.profile.bio + "</li>");
