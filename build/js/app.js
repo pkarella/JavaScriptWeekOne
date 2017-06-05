@@ -25,9 +25,9 @@ Doctor.prototype.doctors = function(illness, doctorInformation) {
        var bio = response.data[i].profile.bio;
        var image = response.data[i].profile.image_url;
       newDoctor = new Doctor (lastName, firstName, title, bio, image);
-      doc.push(newDoctor);
+      docs.push(newDoctor);
     }
-     doctorInformation(docs);
+      doctorInformation(docs);
    })
      .fail(function(error){
      });
@@ -39,6 +39,11 @@ Doctor.prototype.doctors = function(illness, doctorInformation) {
 var Doctor = require('./../js/doctor.js').doctorModule;
 
 
+
+var list = function(lastName,firstName,title,bio,image){
+
+};
+
 var doctorInformation = function(coolDoctor) {
   coolDoctor.forEach(function(newCoolDoctor){
     $('#result').append("<li><h3> Name:</h3> " + newCoolDoctor.lastName + ", " + newCoolDoctor.firstName + " " + newCoolDoctor.title+"</li>");
@@ -48,12 +53,12 @@ var doctorInformation = function(coolDoctor) {
   };
 
 $(document).ready(function() {
-  var newDoctorObject = new Doctor();
+  var newestDoctor = new Doctor();
   $('#doctor').click(function() {
     var illness = $('#illness').val();
     $('#illness').val("");
     $('#result').empty();
-    newDoctorObject.doctors(illness, doctorInformation);
+    newestDoctor.doctors(illness, doctorInformation,list);
   });
 });
 

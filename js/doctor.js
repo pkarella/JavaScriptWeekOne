@@ -21,9 +21,9 @@ Doctor.prototype.doctors = function(illness, doctorInformation) {
        var bio = response.data[i].profile.bio;
        var image = response.data[i].profile.image_url;
       newDoctor = new Doctor (lastName, firstName, title, bio, image);
-      doc.push(newDoctor);
+      docs.push(newDoctor);
     }
-     doctorInformation(docs);
+      doctorInformation(docs);
    })
      .fail(function(error){
      });

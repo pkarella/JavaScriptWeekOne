@@ -1,6 +1,11 @@
 var Doctor = require('./../js/doctor.js').doctorModule;
 
 
+
+var list = function(lastName,firstName,title,bio,image){
+
+};
+
 var doctorInformation = function(coolDoctor) {
   coolDoctor.forEach(function(newCoolDoctor){
     $('#result').append("<li><h3> Name:</h3> " + newCoolDoctor.lastName + ", " + newCoolDoctor.firstName + " " + newCoolDoctor.title+"</li>");
@@ -10,11 +15,11 @@ var doctorInformation = function(coolDoctor) {
   };
 
 $(document).ready(function() {
-  var newDoctorObject = new Doctor();
+  var newestDoctor = new Doctor();
   $('#doctor').click(function() {
     var illness = $('#illness').val();
     $('#illness').val("");
     $('#result').empty();
-    newDoctorObject.doctors(illness, doctorInformation);
+    newestDoctor.doctors(illness, doctorInformation,list);
   });
 });
